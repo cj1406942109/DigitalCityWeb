@@ -90,7 +90,7 @@
                             <span><i class="fa fa-stop" aria-hidden="true" title="点击停止"></i></span>
                             <%--<span><i class="fa fa-heart" aria-hidden="true" title="点击收藏/取消收藏"></i></span>--%>
                         </div>
-                        <audio src="${pageContext.request.contextPath}/${listItem.source}" hidden></audio>
+                        <audio src="${pageContext.request.contextPath}/${listItem.source}" hidden preload="none"></audio>
                     </li>
                 </c:forEach>
             </ul>
